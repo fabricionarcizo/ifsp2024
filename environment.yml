@@ -1,0 +1,17 @@
+name: ifsp-2024
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12.4
+  - pip
+  - pip:
+      - dlib
+      - dvc[gdrive]
+      - matplotlib
+      - mediapipe
+      - notebook
+      - numpy
+      - opencv-python
+      - pylint
