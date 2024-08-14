@@ -1,5 +1,7 @@
 [core]
     autostage = true
-    remote = storage
+    remote = download
 ['remote "storage"']
-    url = gdrive://1V776AJ2dIAQq1voFTh5WcMTwcZemVLY3
+    url = s3://fabricionarcizo-ifsp-2024
+['remote "download"']
+    url = https://d1yl9nq5tedtd5.cloudfront.net
